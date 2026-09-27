@@ -1,0 +1,36 @@
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+main
+asan
+test_sound_seg
+test_sound_seg_asan
+
+# Debug / sanitizer files
+*.dSYM/
+*.stackdump
+core
+core.*
+
+# Generated WAV files from tests
+test_roundtrip.wav
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*~
